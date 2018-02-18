@@ -20,4 +20,32 @@ LAYING (value 6): subject was laying down during the test
 
 ## R script: 
 
+The R script run_analysis.R does the following things:
+
+1. Download the dataset if it does not already exist in the working directory.
+
+Check if zip has already been downloaded in ./projectData directory?
+Check if zip has already been unzipped?
+List all the files of UCI HAR Dataset folder The files that will be used to load data are listed as follows: test/subject_test.txt test/X_test.txt test/y_test.txt train/subject_train.txt train/X_train.txt train/y_train.txt
+
+2. Load the training and the test sets as well as the activity, subject and feature info. 
+Read the Activity files.
+Read the Subject files.
+Read Features files.
+
+3. Merges the training and the test sets to create one dataset.
+
+4. Appropriately label the merged dataset with descriptive variable names.
+
+5. Extracts only the measurements on the mean and standard deviation for each measurement.
+
+6. Uses descriptive activity names to name the activities in the data set.
+Read descriptive activity names from activity_labels.txt
+Factorize variable activity in the data frame Data using descriptive activity names.
+Appropriately labels the data set with descriptive variable names.
+
+7. Creates a independent tidy dataset that consists of the average value of each variable for each subject and activity pair.
+
+8. Final output file is tidydata.txt
+
 ## tidy.txt
