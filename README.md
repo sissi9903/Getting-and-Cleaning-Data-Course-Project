@@ -9,7 +9,7 @@ This repository contains my work for the Getting and Cleaning Data course projec
 
 ## R script
 
-The R script, run_analysis.R, does the following:
+The R script, run_analysis.R, creates the desired tidy dataset by implementing the following steps:
 
 1. Download and unzip the source data if it does not already exist in the working directory
 2. Read source data
@@ -18,5 +18,5 @@ The R script, run_analysis.R, does the following:
 5. Extract only the measurements on the mean and standard deviation for each variable
 6. Name the activities in the data set with descriptive activity names 
 7. Create an independent tidy dataset that consists of the average value of each variable for each subject and activity pair.
-8. Write the data set to the tidy_data.txt file.
+8. Write the data set to the tidy.txt file.
 
