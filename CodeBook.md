@@ -3,7 +3,6 @@
 ## Data Source
 The row dataset is derived from the "Human Activity Recognition Using Smartphones Data Set" which is avaiable at: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-## Experimental Design
 For detailed information about data collection and feature selection, please refer to the README and features.txt files in the original dataset.  An extract from the authors' description is reported below:
 
 "The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Subjects have been randomly partitioned into two sets, 70% of the volunteers were selected for generating the training data and 30% the test data. 
