@@ -3,8 +3,8 @@
 ## Introduction 
 
 This repository contains my work for the Getting and Cleaning Data course project, including:
-- an R script (run_analysis.R) to create a tidy dataset from data collected from the accelerometers of the Samsung Galaxy S smartphone
-- a code book (CodeBook.md file), providing information about row and processed data, variables and all the transformations performed to create a tidy dataset 
+- an R script (run_analysis.R) to create a tidy dataset for data collected from the accelerometer and gyroscope of Samsung Galaxy S smartphones while subjects were performing 6 different activities
+- a code book (CodeBook.md file) providing information about row and processed data, variables and all the transformations performed to create a tidy dataset 
 - the resulting tidy dataset (tidy.txt)
 
 ## R script
