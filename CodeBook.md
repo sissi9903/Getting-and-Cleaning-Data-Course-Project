@@ -26,7 +26,6 @@ STANDING (value 5): subject was standing during the test
 LAYING (value 6): subject was laying down during the test
 
 ## R script
-
 The R script, run_analysis.R, creates the desired tidy dataset by implementing the following steps:
 
 1. Download and unzip the source data if it does not already exist in the working directory
