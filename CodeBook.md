@@ -25,7 +25,19 @@ SITTING (value 4): subject was sitting during the test
 STANDING (value 5): subject was standing during the test
 LAYING (value 6): subject was laying down during the test
 
-## R script: 
+## R script
+
+The R script, run_analysis.R, creates the desired tidy dataset by implementing the following steps:
+
+1. Download and unzip the source data if it does not already exist in the working directory
+2. Read source data
+3. Add in Test and Training dataframes Subject ID and Activity specifics as 1st and 2nd columns, respectively
+4. Label the dataset with descriptive variable names
+5. Extract only the measurements of the mean and standard deviation for each variable
+6. Name the activities in the dataset with descriptive activity names 
+7. Create an independent tidy dataset that consists of the average value of each variable for each subject and activity pair
+8. Write the tidy dataset to tidy.txt file.
+
 
 
 
