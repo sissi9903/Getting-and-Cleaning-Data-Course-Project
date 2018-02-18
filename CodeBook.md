@@ -96,7 +96,7 @@ LAYING (value 6): subject was laying down during the test
 The set of variables that were estimated in this assignment from all the original dataset signals are only:
 
 mean(): Mean value
-std(): Standard deviation
+std(): Standard deviation 
 
 The other estimates have been removed for the purpose of this project.
 
