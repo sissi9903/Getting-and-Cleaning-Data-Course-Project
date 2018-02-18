@@ -7,6 +7,9 @@ This repository contains my work for the Getting and Cleaning Data course projec
 - a code book (CodeBook.md file) providing information about row and processed data, variables and all the transformations performed to create a tidy dataset 
 - the resulting tidy dataset (tidy.txt)
 
+## Project Aims
+The purpose of this project is to create a tidy dataset from UCI HAR data that contains only the average of the mean and standard deviation of each measurement for each activity and each subject.
+
 ## R script
 
 The R script, run_analysis.R, creates the desired tidy dataset by implementing the following steps:
