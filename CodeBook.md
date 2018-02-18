@@ -47,3 +47,4 @@ Appropriately labels the data set with descriptive variable names.
 9. Final output file is tidydata.txt
 
 ## tidy.txt
+
